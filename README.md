@@ -29,9 +29,9 @@ Start the application:
 ```bash
 npm run dev
 ```
-## Preview
+## Try out now!
 
-[![Weather Now Screenshot](Screenshot.png)](weatherapp.mp4)
+[![Weather Now Screenshot](Screenshot.png)]([weatherapp.mp4](https://codesandbox.io/p/github/AnithVarghese/weather-now-app/main))
 
   
 
