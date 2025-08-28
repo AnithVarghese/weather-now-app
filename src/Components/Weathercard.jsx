@@ -1,9 +1,11 @@
+//fetch and display weather data based on searched city 
+
 import useWeather from "../hooks/useWeather";
 import Loading from "./Loading";
 
 
 const WeatherCard = ({ latitude, longitude, city, country }) => {
-  const { weather, loading, error } = useWeather(latitude, longitude);
+  const { weather, loading } = useWeather(latitude, longitude);
 
   if (loading) return <Loading />;
 

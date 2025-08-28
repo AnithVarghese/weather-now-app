@@ -5,9 +5,9 @@ const Searchcomponent = ({ onSearch }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (query.trim()) {
+  
       onSearch(query.trim());
-    }
+    
   };
 
   return (

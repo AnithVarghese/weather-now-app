@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+// Homepage.jsx
+
+import { useState } from "react";
 import Searchcomponent from "../Components/Searchcomponent";
 import WeatherCard from "../Components/Weathercard";
 import errorImg from "../assets/errimg.png";
@@ -9,14 +11,19 @@ const HomePage = () => {
 
   const handleSearch = async (query) => {
     setError(null);
-    try {
+    
+    if (!query || query  === "") {
+       setError("No city Entered❌ Please Enter a city!");
+         setCoords(null);
+         return;
+       }
+    else{
+     try {
       const res = await fetch(
-        `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(
-          query
-        )}`
+        `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(query)}` //fetch coordinates based on city name
       );
       const data = await res.json();
-
+      // check if results exist
       if (data && data.results && data.results.length > 0) {
         const { latitude, longitude, name, country } = data.results[0];
         setCoords({ latitude, longitude, name, country });
@@ -28,6 +35,9 @@ const HomePage = () => {
       setError("Failed to fetch location");
       setCoords(null);
     }
+  }
+
+  
   };
 
   return (
