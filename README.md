@@ -23,23 +23,19 @@ Weather Now is a simple application that provides real-time weather updates for 
     ```
 3. Install dependencies:
     ```bash
-    npm install
+        npm install axios tailwindcss @tailwindcss/vite
     ```
 
 ## Usage
 
 Start the application:
 ```bash
-npm start
+npm run dev
 ```
-Open your browser and go to `http://localhost:3000`.
 
-## Configuration
 
-- Set your weather API key in the `.env` file:
-  ```
-  WEATHER_API_KEY=your_api_key_here
-  ```
+
+  
 
 ## Contributing
 
