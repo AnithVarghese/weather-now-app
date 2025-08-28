@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# weather-now-app
-=======
 # Weather Now
 
 Weather Now is a simple application that provides real-time weather updates for any location.
@@ -44,4 +41,3 @@ Contributions are welcome! Please open issues or submit pull requests.
 ## License
 
 This project is licensed under the MIT License.
->>>>>>> 3d7187c (created a live weather app)
