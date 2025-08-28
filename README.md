@@ -31,7 +31,8 @@ npm run dev
 ```
 ## Try out now!
 
-[![Weather Now Screenshot](Screenshot.png)]([weatherapp.mp4](https://codesandbox.io/p/github/AnithVarghese/weather-now-app/main))
+[![Weather Now Screenshot](Screenshot.png)](https://codesandbox.io/p/github/AnithVarghese/weather-now-app/main?import=true)
+
 
   
 
