@@ -29,8 +29,9 @@ Start the application:
 ```bash
 npm run dev
 ```
+## Preview
 
-
+[![Weather Now Screenshot](Screenshot.png)](weatherapp.mp4)
 
   
 
@@ -41,3 +42,4 @@ Contributions are welcome! Please open issues or submit pull requests.
 ## License
 
 This project is licensed under the MIT License.
+
