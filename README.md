@@ -30,7 +30,7 @@ Start the application:
 npm run dev
 ```
 ## Try out now!
-
+#Click the image to try out.
 [![Weather Now Screenshot](Screenshot.png)](https://codesandbox.io/p/github/AnithVarghese/weather-now-app/main?import=true)
 
 
